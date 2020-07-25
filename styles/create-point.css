@@ -27,3 +27,35 @@
     width: 20px;
     height: 24px;
 }
+form {
+    background-color: white;
+    padding: 64px;
+    margin: 80px auto;
+    margin-top: 64px;
+    border-radius: 8px;
+    max-width: 730px;
+}
+form h1{
+    font-size: 36px;
+}
+form fieldset {
+    margin-top: 64px;
+
+    border: 0;
+}
+form legend {
+    margin-bottom: 40px;
+}
+form legend h2 {
+    font-size: 24px;
+}
+form .field {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 24px;
+}
+form .field-group {
+    display: flex;
+}
