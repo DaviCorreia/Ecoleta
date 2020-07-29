@@ -55,4 +55,20 @@ document
 
 
 //itens de coleta 
+//pegar todos os li's
+
+const itemsToCollect = document.querySelector(".items-grid li")
+
+for (const item of itemsToCollect){
+    item.addEventListener("click",handleSelectedItem)
+}
+
+function handleSelectedItem(event){
+    const itemLi = event.target
+
+    // adicoonar ou remover classes com JS
+    itemLi.classList.togle("selected")
+
+    const itemId = itemLi.dataset.id
+}
     
